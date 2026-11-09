@@ -3,14 +3,16 @@
 <package format="3">
   <name>auv_end2end</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="liahn@todo.todo">liahn</maintainer>
-  <license>TODO: License declaration</license>
+  <description>AUV 水下机器人 ROS2 + Gazebo 端到端仿真功能包：包含单目视觉避障与矩形航点巡航。</description>
+  <maintainer email="linfengci@example.com">LinFengCi</maintainer>
+  <license>BSD-3-Clause</license>
 
   <depend>rclpy</depend>
-  <depend>sensor_msgs</depend>
   <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
   <depend>cv_bridge</depend>
+  <depend>gazebo_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
