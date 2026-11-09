@@ -34,12 +34,6 @@ title: 主页
 
 ## 1. 入门 <span id="list"></span>
 
-* [URDF 四轮小车建模与 RViz 显示](./chapter/urdf_car_modeling.md)
-
-* [自建小车 Gazebo GMapping 建图](./chapter/urdf_car_gmapping.md)
-
-* [PocketSphinx 语音控制小乌龟](./voice/pocketsphinx_noetic.md)
-
 ROS 相关资料（[网盘下载地址](https://pan.baidu.com/s/1viua4SZ7tP2DtU2XlCRKPg?pwd=hutb)）：
 
 * 教材：ROS教材.pdf
@@ -63,12 +57,15 @@ ROS每章节运行代码:
     * [ROS Noetic 环境自检与常见问题排查](./chap2/ros1_env_check/index.md)
 * [第 3 章](./chapter/chap3.md) - 机器人系统设计
 * [第 4 章](./chapter/chap4.md) - 机器人仿真
+    * [URDF 四轮小车建模与 RViz 显示](./chapter/urdf_car_modeling.md)
 * [第 5 章](./chapter/chap5.md) - 机器人感知
 * [第 6 章](./chapter/chap6.md) - 机器人 SLAM 与自主导航
+    * [自建小车 Gazebo GMapping 建图](./chapter/urdf_car_gmapping.md)
 * [第 7 章](./chapter/chap7.md) - 阿克曼四轮小车运动控制
 * [第 8 章](./chapter/chap8.md) - ROS 机器人综合应用
-  * [MoveIt 六自由度机械臂运动规划](./chapter/chap8/moveit_arm_planning.md)
-  * [MuJoCo UR5e 关节空间抓放控制](./chapter/ur5e_pickplace.md)
+    * [PocketSphinx 语音控制小乌龟](./voice/pocketsphinx_noetic.md)
+    * [MoveIt 六自由度机械臂运动规划](./chapter/chap8/moveit_arm_planning.md)
+    * [MuJoCo UR5e 关节空间抓放控制](./chapter/ur5e_pickplace.md)
 * [第 9 章](./chapter/chap9.md) - ROS 2
 
 
@@ -118,6 +115,8 @@ ROS 2 服务与参数基础实验（无人机模式切换与在线调参）：[c
 * [地面载具物理仿真与键盘运动控制](./ground/carla_keyboard_control.md)
 * [CARLA+YOLOv8 目标检测感知与减速避障](./ground/carla_yolo_avoidance.md)
 * [阿克曼控制](./ground/ackermann_control.md)
+* [车道线检测（前视视觉）](./ground/carla_lane_keeping/lane_detection.md)
+* [车道保持控制](./ground/carla_lane_keeping/lane_keeping_control.md)
 * [传感器感知与给定轨迹跟踪（神经网络版）](./ground/carla_perception_control.md)
 * [R2D2小车自动巡航仿真](./ground/r2d2_cruise.md)
 * [路径点发布器](./ground/waypoint.md)
